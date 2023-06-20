@@ -1,0 +1,30 @@
+{
+  "name": "stock-mate",
+  "version": "1.0.0",
+  "description": "",
+  "proxy": "http://localhost:3000",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velihantpts/stock-mate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velihantpts/stock-mate/issues"
+  },
+  "homepage": "https://github.com/velihantpts/stock-mate#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemailer": "^6.9.2",
+    "nodemon": "^2.0.22",
+    "tailwindcss": "^3.3.2"
+  }
+}
